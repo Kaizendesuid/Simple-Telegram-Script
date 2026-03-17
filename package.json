@@ -1,0 +1,30 @@
+{
+  "name": "KaiBASE",
+  "version": "1.0.0",
+  "description": "Bot Telegram",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.67.0",
+    "axios": "^1.6.8", 
+    "form-data": "^4.0.0",
+    "jimp": "^0.22.12",
+    "node-schedule": "^2.1.0",
+    "sharp": "^0.34.5",
+    "qrcode": "^1.5.4",
+    "dotenv": "^17.3.1",
+    "canvas": "^3.2.1",
+    "chalk": "^4.1.2",  
+    "cfonts": "^3.3.1",
+    "moment-timezone": "^0.6.0"
+  }
+}
